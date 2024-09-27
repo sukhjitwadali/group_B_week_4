@@ -34,6 +34,7 @@ func main() {
 	// Output the area
 	fmt.Printf("The area of the rectangle is: %.2f\n", area)
 
+	//  Sahil
 	var number int
 	fmt.Print("Enter a number to check if it is Odd or Even: ")
 	fmt.Scan(&number)
