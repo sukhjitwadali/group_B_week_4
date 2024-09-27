@@ -23,7 +23,6 @@ func main() {
 	// Mehul bhargav
 	var length, width float64
 
-	// Input length and width
 	fmt.Print("Enter the length of the rectangle: ")
 	fmt.Scan(&length)
 	fmt.Print("Enter the width of the rectangle: ")
