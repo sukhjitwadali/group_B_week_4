@@ -13,4 +13,9 @@ func main() {
 	} else {
 		fmt.Printf("%d is not a prime number.\n", num)
 	}
+	//Shivam Bhargav
+	num1 := 5
+	fact1 := factorial(num1)
+
+	fmt.Printf("Factorial of %d is %d\n", num1, fact1)
 }
