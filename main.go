@@ -18,4 +18,20 @@ func main() {
 	fact1 := factorial(num1)
 
 	fmt.Printf("Factorial of %d is %d\n", num1, fact1)
+
+	// Mehul bhargav
+	var length, width float64
+
+    // Input length and width
+    fmt.Print("Enter the length of the rectangle: ")
+    fmt.Scan(&length)
+    fmt.Print("Enter the width of the rectangle: ")
+    fmt.Scan(&width)
+
+    // Call the function to calculate the area
+    area := areaOfRectangle(length, width)
+
+    // Output the area
+    fmt.Printf("The area of the rectangle is: %.2f\n", area)
+
 }
